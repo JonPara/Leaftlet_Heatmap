@@ -1,31 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Map</title>
+<html lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+   <head profile="http://gmpg.org/xfn/11">
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+ 
+      <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" />
+      
+      <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script>
+      <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'></script>
+   </head>
+ 
+   <body>
+      <h1>Leaflet Heatmap</h1>
+      
+      <p>Here's a map of the countries I've either lived in or travelled through for a month or more.
+      
+      <div id="map" style="height: 440px; border: 1px solid #AAA;"></div>
+ 
+      <script type='text/javascript' src='maps/markers.json'></script>
+      <script type='text/javascript' src='maps/leaf-demo.js'></script>
 
-  <!-- Leaflet CSS -->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.css">
-
-  <!-- Our CSS -->
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-
-  <!-- The div that holds our map -->
-  <div id="map"></div>
-
-  <!-- D3 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.5.0/d3.min.js"></script>
-  <script src="https://d3js.org/d3.v4.min.js"></script>
-
-  <!-- Leaflet JavaScript -->
-  <script src="https://unpkg.com/leaflet@1.0.0-rc.3/dist/leaflet.js"></script>
-  <script src="https://unpkg.com/leaflet@1.0.1/dist/leaflet.js"></script>
-  <script type="text/javascript" src="leaflet-heat.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-  <!-- Our JavaScript -->
-  <script type="text/javascript" src="logic.js"></script>
-</body>
-
+   </body>
 </html>
